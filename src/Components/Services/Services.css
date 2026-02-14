@@ -1,0 +1,86 @@
+.services{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 80px;
+    margin : 80px 170px;
+}
+.services-title{
+    position : relative;
+}
+services-title h1{
+    padding : 0px 30px;
+    font-size : 80px;
+    font-weight : 600;
+}
+.services-format{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    gap : 20px;
+    padding : 60px;
+    border-radius : 10px;
+    border : 2px solid white;
+    transition : 0.3s;
+    cursor : pointer;
+}
+.services-container{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    gap : 80px;
+    margin-bottom : 50px;
+}
+.services-format h3{
+    font-size : 30px;
+    font-weight : 500;
+}
+.services-format h2{
+    font-size : 24px;
+    font-weight : 600;
+    background : linear-gradient(267deg, #2ee5a8, #e52e71);
+    background-clip : text;
+    -webkit-background-clip : text;
+    color : transparent;
+}
+.services-format p{
+
+    font-size : 18px;
+    font-weight : 500;
+}
+.services-format:hover{
+    border-color : 2px solid #ff8a00;
+    transform : scale(1.05);
+    background : linear-gradient(267deg, #3f0028,#582300);
+    transform : scale(1.05);
+    transition : 0.3s;
+}
+@media(max-width : 768px){
+    .services{
+        align-items : start;
+        gap : 70px;
+        margin : 20px 70px;
+    }
+    .services-title h1{
+        font-size : 50px;
+        padding : 0px;
+    }
+    .services-format{
+        gap : 20px;
+        padding : 30px;
+    }
+    .service-format h2{
+        font-size : 20px;
+    }
+    .service-format p{
+        font-size : 16px;
+        line-height : 32px;
+        max-width : 300px;
+    }
+    .services-container{
+        grid-template-columns : 1fr 1fr;
+        gap : 30px;
+    }
+
+
+}   
