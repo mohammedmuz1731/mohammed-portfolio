@@ -12,7 +12,7 @@ function Hero(){
             <p>I am a passionate frontend developer specializing in creating responsive and user-friendly web applications using modern technologies like React, JavaScript, and CSS.</p>
             <div className="hero-action">
                 <div className ="hero-connect"><AnchorLink className="anchor-link" offset={10} href="#contact">Connect with me</AnchorLink></div>
-                <div><a href={resume} download="Resume.pdf" className="hero-resume">My Resume</a></div>
+                <div className="hero-resume"><a href={resume} download="Resume.pdf">My Resume</a></div>
                 
             </div>
         </div>
