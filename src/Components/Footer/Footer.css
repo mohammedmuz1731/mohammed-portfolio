@@ -85,6 +85,11 @@
         align-items : start;
 
     }
+    .footer-top-right{
+        flex-direction : column;
+        gap : 20px;
+        align-items : start;
+    }
     
     .footer-bottom{
         display : flex;
