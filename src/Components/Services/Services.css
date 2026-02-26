@@ -60,6 +60,7 @@ services-title h1{
         align-items : start;
         gap : 70px;
         margin : 20px 70px;
+    
     }
     .services-title h1{
         font-size : 50px;
@@ -78,8 +79,10 @@ services-title h1{
         max-width : 300px;
     }
     .services-container{
-        grid-template-columns : 1fr 1fr;
-        gap : 30px;
+        grid-template-columns : 1fr ;
+        gap : 20px;
+        margin-right: 16px;
+        
     }
 
 

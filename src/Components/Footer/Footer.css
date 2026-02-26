@@ -89,6 +89,7 @@
         flex-direction : column;
         gap : 20px;
         align-items : start;
+        margin-right : 20px;
     }
     
     .footer-bottom{
@@ -96,5 +97,12 @@
         flex-direction : column-reverse;
         gap : 20px;
         margin-bottom : 50px;
+        align-items : start;
+    }
+    .footer-email-input{
+        width : 75%;
+    }
+    .footer-bottom-left{
+        align-items : center;
     }
 }
