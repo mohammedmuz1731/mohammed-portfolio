@@ -44,7 +44,7 @@ function Contact(){
                     <p>I am currently available for full-time work. Feel free to reach out to me if you have any questions.</p>
                     <div className="contact-details">
                         <div className="contact-detail">
-                        <img src={envelope} alt="Email Icon" className="email-icon" /><p>muzmohammed98@gmail.com</p>
+                        <img src={envelope} alt="Email Icon" className="email-icon" /><p>mohammedmuz1731@gmail.com</p>
                         </div>
                         <div className="contact-detail">
                         <img src={phone} alt="Phone Icon" className="phone-icon" /><p>+1 501-708-3426</p>
